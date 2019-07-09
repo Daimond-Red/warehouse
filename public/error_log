@@ -1,0 +1,18 @@
+[24-Feb-2019 21:07:52 UTC] PHP Warning:  Uncaught ErrorException: require(/home/gsjzu6yrddlz/public_html/stockmanage/macros.php): failed to open stream: No such file or directory in /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php:15
+Stack trace:
+#0 /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/g...', '/home/gsjzu6yrd...', 15, Array)
+#1 /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php(15): require()
+#2 [internal function]: App\Providers\AppServiceProvider->boot()
+#3 /home/gsjzu6yrddlz/public_html/stockmanage/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#4 /home/gsjzu6yrddlz/public_html/stockmanage/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home/gsjzu6yrddlz/public_html/stockmanage/vendor/laravel/framework/src/Illum in /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php on line 15
+[24-Feb-2019 21:07:52 UTC] PHP Fatal error:  App\Providers\AppServiceProvider::boot(): Failed opening required '/home/gsjzu6yrddlz/public_html/stockmanage/macros.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php on line 15
+[24-Feb-2019 21:08:17 UTC] PHP Warning:  Uncaught ErrorException: require(/home/gsjzu6yrddlz/public_html/stockmanage/macros.php): failed to open stream: No such file or directory in /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php:15
+Stack trace:
+#0 /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/g...', '/home/gsjzu6yrd...', 15, Array)
+#1 /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php(15): require()
+#2 [internal function]: App\Providers\AppServiceProvider->boot()
+#3 /home/gsjzu6yrddlz/public_html/stockmanage/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#4 /home/gsjzu6yrddlz/public_html/stockmanage/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home/gsjzu6yrddlz/public_html/stockmanage/vendor/laravel/framework/src/Illum in /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php on line 15
+[24-Feb-2019 21:08:17 UTC] PHP Fatal error:  App\Providers\AppServiceProvider::boot(): Failed opening required '/home/gsjzu6yrddlz/public_html/stockmanage/macros.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gsjzu6yrddlz/public_html/stockmanage/app/Providers/AppServiceProvider.php on line 15
